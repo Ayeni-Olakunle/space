@@ -1,0 +1,101 @@
+.holdAll {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  .holdLoginDetail {
+    width: 50%;
+    display: flex;
+
+    .imageTextKoko {
+      width: 250px;
+      position: absolute;
+    }
+
+    .holdForm {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+      }
+
+      p {
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #8a92a6;
+        margin-bottom: 10px;
+      }
+
+      .formDiv {
+        width: 50%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #8a92a6;
+      }
+
+      .checkBoxMe {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .holdSubmit {
+        text-align: center;
+      }
+      .submit {
+        padding: 8px 24px;
+        background: #3a57e8;
+        border-radius: 4px;
+      }
+    }
+
+    .holdSocial {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+    }
+    .holdSocialMedia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    .social {
+      cursor: pointer;
+    }
+
+    .signUpLink {
+      color: #3a57e8;
+      text-decoration: none;
+    }
+  }
+
+  .holdImage {
+    width: 50%;
+    height: 100%;
+
+    .imageKoko {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.holdAll {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  .holdLoginDetail {
+    width: 50%;
+    display: flex;
+
+    .imageTextKoko {
+      width: 250px;
+      position: absolute;
+    }
+
+    .imageTextKokos {
+      width: 140px;
+      margin-bottom: 15px;
+    }
+
+    .holdForm {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+      }
+
+      p {
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #8a92a6;
+        margin-bottom: 10px;
+        width: 70%;
+      }
+
+      .formDiv {
+        width: 80%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #8a92a6;
+      }
+
+      .holdSubmit {
+        text-align: center;
+      }
+      .submit {
+        padding: 8px 24px;
+        background: #3a57e8;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .holdImage {
+    width: 50%;
+    height: 100%;
+
+    .imageKoko {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
